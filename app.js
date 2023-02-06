@@ -12,7 +12,7 @@ mongoose.set('strictQuery', false);
 mongoose.connect('mongodb://0.0.0.0:27017/e-commerce')
   .then(() => console.log('Connected!'));
 
-  
+  // test
   app.use('/category',require('./routes/categort.route'),GlobelError)
   app.use('/prodect',require('./routes/prodect.route'),)
   app.use('/user',require('./routes/user.route'))
